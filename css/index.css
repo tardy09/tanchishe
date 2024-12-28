@@ -1,0 +1,52 @@
+.content{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    border: 2px solid #000;
+    margin:0 auto;
+}
+
+.btn {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    /*border: 1px solid red;*/
+    cursor: pointer;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    line-height: 40px;
+    background-color: red;
+    border-radius: 15px;
+    color: #fff;
+    display: none;
+}
+.startBtn{
+    display: block;
+    background-color: green;
+}
+#snakeWrap{
+    width: 100%;
+    height: 100%;
+}
+#snakeWrap  div{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.snakeHead {
+    width: 15px;
+    height: 15px;
+    background-color: blueviolet;
+}
+.snakeBody {
+    background-color: green;
+}
+.food{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+}
